@@ -10,7 +10,7 @@ namespace PRM392_ShopClothes_Repository.Entities
         [Key]
         public int OrderId { get; set; }
         [Required]
-        public int MemberId { get; set; }
+        public int CarId { get; set; }
         [Required]
         public DateTime OrderDate { get; set; }
         [Required]
@@ -22,7 +22,7 @@ namespace PRM392_ShopClothes_Repository.Entities
         [Required]
         public string Status { get; set; }
 
-        [ForeignKey("MemberId")]
-        public Member Member { get; set; }
+        [ForeignKey("CartId")]
+        public Cart Cart { get; set; }
     }
 }

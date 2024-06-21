@@ -12,8 +12,8 @@ using PRM392_ShopClothes_Repository.Entities;
 namespace PRM392_ShopClothes_Repository.Migrations
 {
     [DbContext(typeof(MyDBContext))]
-    [Migration("20240621100617_addCart")]
-    partial class addCart
+    [Migration("20240621115813_newv1")]
+    partial class newv1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -147,7 +147,10 @@ namespace PRM392_ShopClothes_Repository.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"), 1L, 1);
 
-                    b.Property<int>("MemberId")
+                    b.Property<int>("CarId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CartId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("OrderDate")
@@ -168,7 +171,7 @@ namespace PRM392_ShopClothes_Repository.Migrations
 
                     b.HasKey("OrderId");
 
-                    b.HasIndex("MemberId");
+                    b.HasIndex("CartId");
 
                     b.ToTable("Order");
                 });
@@ -354,13 +357,13 @@ namespace PRM392_ShopClothes_Repository.Migrations
 
             modelBuilder.Entity("PRM392_ShopClothes_Repository.Entities.Order", b =>
                 {
-                    b.HasOne("PRM392_ShopClothes_Repository.Entities.Member", "Member")
+                    b.HasOne("PRM392_ShopClothes_Repository.Entities.Cart", "Cart")
                         .WithMany()
-                        .HasForeignKey("MemberId")
+                        .HasForeignKey("CartId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Member");
+                    b.Navigation("Cart");
                 });
 
             modelBuilder.Entity("PRM392_ShopClothes_Repository.Entities.OrderDetail", b =>

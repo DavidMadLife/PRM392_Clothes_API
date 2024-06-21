@@ -11,7 +11,7 @@ namespace PRM392_ShopClothes_Repository.Entities
         public int CartId { get; set; }
 
         [Required]
-        public int OrderId { get; set; }
+        public int MemberId { get; set; }
 
         [Required]
         public DateTime CreatedAt { get; set; }
@@ -22,7 +22,7 @@ namespace PRM392_ShopClothes_Repository.Entities
         [Required]
         public double Total { get; set; }
 
-        [ForeignKey("OrderId")]
-        public Order Order { get; set; }
+        [ForeignKey("MemberId")]
+        public Member Member { get; set; }
     }
 }

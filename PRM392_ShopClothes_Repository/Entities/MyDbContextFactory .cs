@@ -21,7 +21,7 @@ namespace PRM392_ShopClothes_Repository.Entities
         public MyDBContext CreateDbContext(string[] args)
         {
             // Đường dẫn đến thư mục chứa file appsettings.json
-            var path = @"D:\Semester 8\PRM\PRM392_ShopClothes\PRM392_ShopClothes_API";
+            var path = @"D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API";
 
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(path)

@@ -9,3 +9,15 @@ D:\Semester 8\PRM\PRM392_ShopClothes\PRM392_ShopClothes_Model\obj\Debug\net6.0\P
 D:\Semester 8\PRM\PRM392_ShopClothes\PRM392_ShopClothes_Model\obj\Debug\net6.0\refint\PRM392_ShopClothes_Model.dll
 D:\Semester 8\PRM\PRM392_ShopClothes\PRM392_ShopClothes_Model\obj\Debug\net6.0\PRM392_ShopClothes_Model.pdb
 D:\Semester 8\PRM\PRM392_ShopClothes\PRM392_ShopClothes_Model\obj\Debug\net6.0\ref\PRM392_ShopClothes_Model.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\bin\Debug\net6.0\PRM392_ShopClothes_Model.deps.json
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\bin\Debug\net6.0\PRM392_ShopClothes_Model.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\bin\Debug\net6.0\PRM392_ShopClothes_Model.pdb
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\PRM392_ShopClothes_Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\PRM392_ShopClothes_Model.AssemblyInfoInputs.cache
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\PRM392_ShopClothes_Model.AssemblyInfo.cs
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\PRM392_ShopClothes_Model.csproj.CoreCompileInputs.cache
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\PRM392_ShopClothes_Model.sourcelink.json
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\PRM392_ShopClothes_Model.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\refint\PRM392_ShopClothes_Model.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\PRM392_ShopClothes_Model.pdb
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\ref\PRM392_ShopClothes_Model.dll

@@ -18,7 +18,9 @@ namespace PRM392_ShopClothes_Repository.Repository
         private IGenericRepository<Provider> _providerRepo;
         private IGenericRepository<Product> _productRepo;
         private IGenericRepository<Role> _roleRepo;
-       
+        private IGenericRepository<Cart> _cartRepo;
+        private IGenericRepository<CartItem> _cartItemRepo;
+
 
         public UnitOfWork(MyDBContext context)
         {
@@ -59,6 +61,16 @@ namespace PRM392_ShopClothes_Repository.Repository
         public IGenericRepository<Role> RoleRepository
         {
             get { return _roleRepo ??= new GenericRepository<Role>(_context); }
+        }
+
+        public IGenericRepository<Cart> CartRepository
+        {
+            get { return _cartRepo ??= new GenericRepository<Cart>(_context); }
+        }
+
+        public IGenericRepository<CartItem> CartItemRepository
+        {
+            get { return _cartItemRepo ??= new GenericRepository<CartItem>(_context); }
         }
 
         public int Save()

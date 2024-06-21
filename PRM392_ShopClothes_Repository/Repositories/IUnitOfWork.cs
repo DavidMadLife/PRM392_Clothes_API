@@ -19,7 +19,9 @@ namespace PRM392_ShopClothes_Repository.Repository
         public IGenericRepository<Product> ProductRepository { get; }
         public IGenericRepository<Provider> ProviderRepository { get; }
         public IGenericRepository<Role> RoleRepository { get; }
-        
+        public IGenericRepository<Cart> CartRepository { get; }
+        public IGenericRepository<CartItem> CartItemRepository { get; }
+
         public int Save();
     }
 }

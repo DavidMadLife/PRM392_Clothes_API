@@ -60,6 +60,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.31, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -75,6 +83,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[6.1.0, )"
             }
           },
           "imports": [
@@ -145,6 +157,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -196,9 +214,6 @@
             "projectReferences": {
               "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj": {
                 "projectPath": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj"
-              },
-              "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj": {
-                "projectPath": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj"
               }
             }
           }
@@ -295,7 +310,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj": {
+                "projectPath": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj"
+              },
+              "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj": {
+                "projectPath": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

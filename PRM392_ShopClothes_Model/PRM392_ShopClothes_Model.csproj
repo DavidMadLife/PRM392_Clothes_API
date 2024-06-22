@@ -7,9 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Mapper\" />
-    <Folder Include="Model\Response\" />
-    <Folder Include="Model\Request\" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
   </ItemGroup>
 
 </Project>

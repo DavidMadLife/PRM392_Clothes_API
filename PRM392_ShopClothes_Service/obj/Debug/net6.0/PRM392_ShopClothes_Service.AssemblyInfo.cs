@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PRM392_ShopClothes_Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+797e214730e2e4a46e34fdee47febb6d2d5842fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a833027d0e9363ea617fa6f046e37d78833d453")]
 [assembly: System.Reflection.AssemblyProductAttribute("PRM392_ShopClothes_Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PRM392_ShopClothes_Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

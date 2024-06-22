@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interface\" />
-    <Folder Include="Service\" />
+    <ProjectReference Include="..\PRM392_ShopClothes_Model\PRM392_ShopClothes_Model.csproj" />
+    <ProjectReference Include="..\PRM392_ShopClothes_Repository\PRM392_ShopClothes_Repository.csproj" />
   </ItemGroup>
 
 </Project>

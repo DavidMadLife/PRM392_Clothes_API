@@ -3,60 +3,20 @@
   "WorkspaceRootPath": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_repository\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|solutionrelative:prm392_shopclothes_repository\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74712F7D-40B0-440C-9038-9BCD233C5AB5}|PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_service\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74712F7D-40B0-440C-9038-9BCD233C5AB5}|PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj|solutionrelative:prm392_shopclothes_service\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB034C87-52F3-4E7D-B49A-182F26DABF45}|PRM392_ShopClothes_API\\PRM392_ShopClothes_API.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BB034C87-52F3-4E7D-B49A-182F26DABF45}|PRM392_ShopClothes_API\\PRM392_ShopClothes_API.csproj|solutionrelative:prm392_shopclothes_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{74712F7D-40B0-440C-9038-9BCD233C5AB5}|PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74712F7D-40B0-440C-9038-9BCD233C5AB5}|PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj|solutionrelative:prm392_shopclothes_service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Migrations\\20240621115813_newv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PRM392_ShopClothes_Repository\\Migrations\\20240621115813_newv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Migrations\\20240621115754_newv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PRM392_ShopClothes_Repository\\Migrations\\20240621115754_newv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_repository\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|solutionrelative:prm392_shopclothes_repository\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_repository\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|solutionrelative:prm392_shopclothes_repository\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51DF4A71-D4A9-43A0-9E54-00173AFA9C5F}|PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_model\\mapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DF4A71-D4A9-43A0-9E54-00173AFA9C5F}|PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj|solutionrelative:prm392_shopclothes_model\\mapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_repository\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|solutionrelative:prm392_shopclothes_repository\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_repository\\entities\\mydbcontextfactory .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|solutionrelative:prm392_shopclothes_repository\\entities\\mydbcontextfactory .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_repository\\entities\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|solutionrelative:prm392_shopclothes_repository\\entities\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Migrations\\20240621100524_addCart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PRM392_ShopClothes_Repository\\Migrations\\20240621100524_addCart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_repository\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|solutionrelative:prm392_shopclothes_repository\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_repository\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|solutionrelative:prm392_shopclothes_repository\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_repository\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|solutionrelative:prm392_shopclothes_repository\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_repository\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|solutionrelative:prm392_shopclothes_repository\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,186 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20240621115813_newv1.cs",
-              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Migrations\\20240621115813_newv1.cs",
-              "RelativeDocumentMoniker": "PRM392_ShopClothes_Repository\\Migrations\\20240621115813_newv1.cs",
-              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Migrations\\20240621115813_newv1.cs",
-              "RelativeToolTip": "PRM392_ShopClothes_Repository\\Migrations\\20240621115813_newv1.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T11:58:14.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240621115754_newv1.cs",
-              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Migrations\\20240621115754_newv1.cs",
-              "RelativeDocumentMoniker": "PRM392_ShopClothes_Repository\\Migrations\\20240621115754_newv1.cs",
-              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Migrations\\20240621115754_newv1.cs",
-              "RelativeToolTip": "PRM392_ShopClothes_Repository\\Migrations\\20240621115754_newv1.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAYwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T11:57:54.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_API\\appsettings.json",
-              "RelativeDocumentMoniker": "PRM392_ShopClothes_API\\appsettings.json",
-              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_API\\appsettings.json",
-              "RelativeToolTip": "PRM392_ShopClothes_API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAChAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-21T11:55:49.262Z",
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "PRM392_ShopClothes_Service\\Interface\\IUserService.cs",
+              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\Interface\\IUserService.cs",
+              "RelativeToolTip": "PRM392_ShopClothes_Service\\Interface\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T05:42:15.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20240621100524_addCart.cs",
-              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Migrations\\20240621100524_addCart.cs",
-              "RelativeDocumentMoniker": "PRM392_ShopClothes_Repository\\Migrations\\20240621100524_addCart.cs",
-              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Migrations\\20240621100524_addCart.cs",
-              "RelativeToolTip": "PRM392_ShopClothes_Repository\\Migrations\\20240621100524_addCart.cs",
+              "DocumentIndex": 2,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\Mapper\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "PRM392_ShopClothes_Model\\Mapper\\AutoMapperProfile.cs",
+              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\Mapper\\AutoMapperProfile.cs",
+              "RelativeToolTip": "PRM392_ShopClothes_Model\\Mapper\\AutoMapperProfile.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T10:05:24.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "PRM392_ShopClothes_Repository\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "PRM392_ShopClothes_Repository\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAA5wEgAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T10:01:49.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Repositories\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "PRM392_ShopClothes_Repository\\Repositories\\IUnitOfWork.cs",
-              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Repositories\\IUnitOfWork.cs",
-              "RelativeToolTip": "PRM392_ShopClothes_Repository\\Repositories\\IUnitOfWork.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T10:00:59.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\CartItem.cs",
-              "RelativeDocumentMoniker": "PRM392_ShopClothes_Repository\\Entities\\CartItem.cs",
-              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\CartItem.cs",
-              "RelativeToolTip": "PRM392_ShopClothes_Repository\\Entities\\CartItem.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwAcAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T10:00:30.787Z",
+              "WhenOpened": "2024-06-22T05:41:53.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\Cart.cs",
-              "RelativeDocumentMoniker": "PRM392_ShopClothes_Repository\\Entities\\Cart.cs",
-              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\Cart.cs",
-              "RelativeToolTip": "PRM392_ShopClothes_Repository\\Entities\\Cart.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAqwA0AAAAbAAAA",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "PRM392_ShopClothes_Service\\Service\\UserService.cs",
+              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\Service\\UserService.cs",
+              "RelativeToolTip": "PRM392_ShopClothes_Service\\Service\\UserService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDQAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T10:00:14.661Z",
+              "WhenOpened": "2024-06-21T15:04:16.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "PRM392_ShopClothes_Repository\\Entities\\Product.cs",
-              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\Product.cs",
-              "RelativeToolTip": "PRM392_ShopClothes_Repository\\Entities\\Product.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAACYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T09:58:02.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "PRM392_ShopClothes_Repository\\Entities\\Order.cs",
-              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\Order.cs",
-              "RelativeToolTip": "PRM392_ShopClothes_Repository\\Entities\\Order.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T09:57:51.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Member.cs",
               "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\Member.cs",
               "RelativeDocumentMoniker": "PRM392_ShopClothes_Repository\\Entities\\Member.cs",
               "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\Member.cs",
               "RelativeToolTip": "PRM392_ShopClothes_Repository\\Entities\\Member.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwCIAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwAoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-21T09:57:38.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MyDbContextFactory .cs",
-              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\MyDbContextFactory .cs",
-              "RelativeDocumentMoniker": "PRM392_ShopClothes_Repository\\Entities\\MyDbContextFactory .cs",
-              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\MyDbContextFactory .cs",
-              "RelativeToolTip": "PRM392_ShopClothes_Repository\\Entities\\MyDbContextFactory .cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T11:15:10.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MyDBContext.cs",
-              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\MyDBContext.cs",
-              "RelativeDocumentMoniker": "PRM392_ShopClothes_Repository\\Entities\\MyDBContext.cs",
-              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\MyDBContext.cs",
-              "RelativeToolTip": "PRM392_ShopClothes_Repository\\Entities\\MyDBContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T10:05:51.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "PRM392_ShopClothes_Repository\\Entities\\OrderDetail.cs",
-              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\OrderDetail.cs",
-              "RelativeToolTip": "PRM392_ShopClothes_Repository\\Entities\\OrderDetail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T09:57:55.719Z",
               "EditorCaption": ""
             }
           ]

@@ -49,8 +49,9 @@ namespace PRM392_ShopClothes_Service.Service
                 throw new NotImplementedException();
             }
 
-            var member = _mapper.Map<Member>(registerUserRequest);
-            member.
+            /*var member = _mapper.Map<Member>(registerUserRequest);
+            member.*/
+            return null;
         }
 
         public Task<Member[]> SearchUser(string keyword, int pageNumber = 1, int pageSize = 10)

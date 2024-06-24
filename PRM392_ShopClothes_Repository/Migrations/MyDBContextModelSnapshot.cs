@@ -151,10 +151,11 @@ namespace PRM392_ShopClothes_Repository.Migrations
                     b.Property<int>("CartId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("OrderDate")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("OrderCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("RequiredDate")
+                    b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("ShippedDate")
@@ -193,10 +194,6 @@ namespace PRM392_ShopClothes_Repository.Migrations
 
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("UnitPrice")
                         .HasColumnType("float");
@@ -326,7 +323,7 @@ namespace PRM392_ShopClothes_Repository.Migrations
             modelBuilder.Entity("PRM392_ShopClothes_Repository.Entities.CartItem", b =>
                 {
                     b.HasOne("PRM392_ShopClothes_Repository.Entities.Cart", "Cart")
-                        .WithMany()
+                        .WithMany("CartItems")
                         .HasForeignKey("CartId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -400,6 +397,11 @@ namespace PRM392_ShopClothes_Repository.Migrations
                     b.Navigation("Category");
 
                     b.Navigation("Provider");
+                });
+
+            modelBuilder.Entity("PRM392_ShopClothes_Repository.Entities.Cart", b =>
+                {
+                    b.Navigation("CartItems");
                 });
 #pragma warning restore 612, 618
         }

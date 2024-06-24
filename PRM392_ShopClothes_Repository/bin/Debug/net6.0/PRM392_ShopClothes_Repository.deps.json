@@ -13,9 +13,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.31",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.31",
           "Microsoft.Extensions.Configuration": "6.0.0",
-          "Microsoft.Extensions.Configuration.Json": "6.0.0",
-          "PRM392_ShopClothes_Model": "1.0.0",
-          "PRM392_ShopClothes_Service": "1.0.0"
+          "Microsoft.Extensions.Configuration.Json": "6.0.0"
         },
         "runtime": {
           "PRM392_ShopClothes_Repository.dll": {}
@@ -598,16 +596,6 @@
             "fileVersion": "4.700.19.56404"
           }
         }
-      },
-      "PRM392_ShopClothes_Model/1.0.0": {
-        "runtime": {
-          "PRM392_ShopClothes_Model.dll": {}
-        }
-      },
-      "PRM392_ShopClothes_Service/1.0.0": {
-        "runtime": {
-          "PRM392_ShopClothes_Service.dll": {}
-        }
       }
     }
   },
@@ -987,16 +975,6 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
-    },
-    "PRM392_ShopClothes_Model/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "PRM392_ShopClothes_Service/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

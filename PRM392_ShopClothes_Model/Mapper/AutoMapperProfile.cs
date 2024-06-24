@@ -2,6 +2,7 @@
 using AutoMapper.Execution;
 using PRM392_ShopClothes_Model.Model.Request;
 using PRM392_ShopClothes_Model.Model.Response;
+using PRM392_ShopClothes_Repository.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,10 +16,16 @@ namespace PRM392_ShopClothes_Model.Mapper
         public AutoMapperProfile()
         {
             //Request
-            CreateMap<RegisterUserRequest, Member>().ReverseMap();
+            //CreateMap<RegisterUserRequest, Member>().ReverseMap();
+            CreateMap<CartRequest, CartItem>().ReverseMap();
+            CreateMap<OrderRequest, Order>().ReverseMap();
 
             //Response
-            CreateMap<RegisterUserResponse, Member>().ReverseMap();
+            //CreateMap<RegisterUserResponse, Member>().ReverseMap();
+            CreateMap<Cart, CartResponse>().ReverseMap();
+            CreateMap<CartItem, CartItemResponse>().ReverseMap();
+            CreateMap<Order, OrderResponse>().ReverseMap();
+            CreateMap<OrderDetail, OrderDetaiResponse>().ReverseMap();
         }
     }
 }

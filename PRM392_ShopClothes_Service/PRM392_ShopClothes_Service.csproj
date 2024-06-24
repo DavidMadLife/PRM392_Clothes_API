@@ -11,4 +11,8 @@
     <ProjectReference Include="..\PRM392_ShopClothes_Repository\PRM392_ShopClothes_Repository.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Tools\" />
+  </ItemGroup>
+
 </Project>

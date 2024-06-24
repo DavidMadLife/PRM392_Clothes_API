@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace PRM392_ShopClothes_Repository.Entities
 {
@@ -27,8 +28,11 @@ namespace PRM392_ShopClothes_Repository.Entities
         public string Address { get; set; }
         [Required]
         public string Status { get; set; }
+        
 
         [ForeignKey("RoleId")]
+        [JsonIgnore]        
+        
         public Role Role { get; set; }
     }
 }

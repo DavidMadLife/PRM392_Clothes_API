@@ -147,6 +147,7 @@ D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Debug\net6.0\ref
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Debug\net6.0\PRM392_ShopClothes_API.pdb
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Debug\net6.0\PRM392_ShopClothes_API.genruntimeconfig.cache
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Debug\net6.0\ref\PRM392_ShopClothes_API.dll
+<<<<<<< HEAD
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\appsettings.Development.json
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\appsettings.json
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\PRM392_ShopClothes_API.exe
@@ -232,3 +233,15 @@ D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Debug\ne
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Debug\net6.0\PRM392_ShopClothes_API.pdb
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Debug\net6.0\PRM392_ShopClothes_API.genruntimeconfig.cache
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Debug\net6.0\ref\PRM392_ShopClothes_API.dll
+=======
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\AutoMapper.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Scrutor.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+>>>>>>> main

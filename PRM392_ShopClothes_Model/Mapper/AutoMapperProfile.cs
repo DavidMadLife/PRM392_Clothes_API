@@ -9,6 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace PRM392_ShopClothes_Model.Mapper
 {
     public class AutoMapperProfile : Profile
@@ -16,6 +18,7 @@ namespace PRM392_ShopClothes_Model.Mapper
         public AutoMapperProfile()
         {
             //Request
+
             //CreateMap<RegisterUserRequest, Member>().ReverseMap();
             CreateMap<CartRequest, CartItem>().ReverseMap();
             CreateMap<OrderRequest, Order>().ReverseMap();
@@ -26,6 +29,15 @@ namespace PRM392_ShopClothes_Model.Mapper
             CreateMap<CartItem, CartItemResponse>().ReverseMap();
             CreateMap<Order, OrderResponse>().ReverseMap();
             CreateMap<OrderDetail, OrderDetaiResponse>().ReverseMap();
+
+            CreateMap<RegisterUserRequest,PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();
+            CreateMap<UpdateUserRequest, PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();
+
+
+            //Response
+            CreateMap<RegisterUserResponse, PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();
+            CreateMap<UpdateUserResponse, PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();
+
         }
     }
 }

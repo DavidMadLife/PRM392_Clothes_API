@@ -21,6 +21,7 @@ D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\refint\PRM392_ShopClothes_Service.dll
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\PRM392_ShopClothes_Service.pdb
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\ref\PRM392_ShopClothes_Service.dll
+<<<<<<< HEAD
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_Service\bin\Debug\net6.0\PRM392_ShopClothes_Service.deps.json
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_Service\bin\Debug\net6.0\PRM392_ShopClothes_Service.dll
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_Service\bin\Debug\net6.0\PRM392_ShopClothes_Service.pdb
@@ -39,3 +40,11 @@ D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debu
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\refint\PRM392_ShopClothes_Service.dll
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\PRM392_ShopClothes_Service.pdb
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\ref\PRM392_ShopClothes_Service.dll
+=======
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\bin\Debug\net6.0\PRM392_ShopClothes_Model.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\bin\Debug\net6.0\PRM392_ShopClothes_Repository.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\bin\Debug\net6.0\PRM392_ShopClothes_Model.pdb
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\bin\Debug\net6.0\PRM392_ShopClothes_Repository.pdb
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\PRM392_ShopClothes_Service.csproj.AssemblyReference.cache
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\PRM392_S.7D044D8B.Up2Date
+>>>>>>> main

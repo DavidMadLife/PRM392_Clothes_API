@@ -1,8 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace PRM392_ShopClothes_Model.Model.Request
 {
-    public class RegisterUserRequest
+    public class UpdateUserRequest
     {
         [Required]
         public string UserName { get; set; }
@@ -14,10 +19,6 @@ namespace PRM392_ShopClothes_Model.Model.Request
         [Required]
         [Phone]
         public string Phone { get; set; }
-
-        [Required]
-        [MinLength(6)]
-        public string Password { get; set; }
 
         [Required]
         public string Address { get; set; }

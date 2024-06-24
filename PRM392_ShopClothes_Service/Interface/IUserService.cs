@@ -13,9 +13,10 @@ namespace PRM392_ShopClothes_Service.Interface
     public interface IUserService
     {
         Task<RegisterUserResponse> RegisterUser(RegisterUserRequest registerUserRequest);
-        Task<Member[]> SearchUser(string keyword, int pageNumber = 1, int pageSize = 10);
-        Task<Member?> GetUserById(long id);
-        Task<Member?> GetUserByEmail(string email);
+        Task<PRM392_ShopClothes_Repository.Entities.Member[]> SearchUser(string? keyword, int? pageNumber = 1, int? pageSize = 10);
+        Task<PRM392_ShopClothes_Repository.Entities.Member?> GetUserById(long id);
+        Task<PRM392_ShopClothes_Repository.Entities.Member?> GetUserByEmail(string email);
         Task<string> AuthorizeUser(LoginView loginView);
+        Task<UpdateUserResponse> UpdateMember (int id, UpdateUserRequest updateUserRequest);
     }
 }

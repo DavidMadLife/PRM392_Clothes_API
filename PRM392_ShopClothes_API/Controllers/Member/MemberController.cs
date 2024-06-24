@@ -6,7 +6,7 @@ using PRM392_ShopClothes_Service.Interface;
 
 namespace PRM392_ShopClothes_API.Controllers.Member
 {
-    [Route("api/[controller]")]
+    [Route("api/members")]
     [ApiController]
     public class MemberController : ControllerBase
     {

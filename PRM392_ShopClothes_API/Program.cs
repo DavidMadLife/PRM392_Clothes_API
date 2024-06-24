@@ -43,7 +43,9 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 //Service
 builder.Services.AddScoped<IUserService, UserService>();
-
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IProviderService, ProviderService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 //JWT
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(option =>

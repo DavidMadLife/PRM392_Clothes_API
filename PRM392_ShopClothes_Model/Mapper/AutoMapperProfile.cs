@@ -20,11 +20,17 @@ namespace PRM392_ShopClothes_Model.Mapper
             //Request
             CreateMap<RegisterUserRequest,PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();
             CreateMap<UpdateUserRequest, PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();
+            CreateMap<ProductRequest, Product>().ReverseMap();
+            CreateMap<ProviderRequest, Provider>().ReverseMap();
+            CreateMap<CategoryRequest, Category>().ReverseMap();
 
 
             //Response
             CreateMap<RegisterUserResponse, PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();
             CreateMap<UpdateUserResponse, PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();
+            CreateMap<ProductResponse, Product>().ReverseMap();
+            CreateMap<ProviderResponse, Provider>().ReverseMap();
+            CreateMap<CategoryResponse, Category>().ReverseMap();
         }
     }
 }

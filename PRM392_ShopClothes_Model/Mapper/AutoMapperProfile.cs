@@ -18,25 +18,25 @@ namespace PRM392_ShopClothes_Model.Mapper
         public AutoMapperProfile()
         {
             //Request
-
-            //CreateMap<RegisterUserRequest, Member>().ReverseMap();
+            CreateMap<RegisterUserRequest,PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();
+            CreateMap<UpdateUserRequest, PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();
             CreateMap<CartRequest, CartItem>().ReverseMap();
             CreateMap<OrderRequest, Order>().ReverseMap();
+            CreateMap<ProductRequest, Product>().ReverseMap();
+            CreateMap<ProviderRequest, Provider>().ReverseMap();
+            CreateMap<CategoryRequest, Category>().ReverseMap();
+
 
             //Response
-            //CreateMap<RegisterUserResponse, Member>().ReverseMap();
             CreateMap<Cart, CartResponse>().ReverseMap();
             CreateMap<CartItem, CartItemResponse>().ReverseMap();
             CreateMap<Order, OrderResponse>().ReverseMap();
             CreateMap<OrderDetail, OrderDetaiResponse>().ReverseMap();
-
-            CreateMap<RegisterUserRequest,PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();
-            CreateMap<UpdateUserRequest, PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();
-
-
-            //Response
             CreateMap<RegisterUserResponse, PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();
             CreateMap<UpdateUserResponse, PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();
+            CreateMap<ProductResponse, Product>().ReverseMap();
+            CreateMap<ProviderResponse, Provider>().ReverseMap();
+            CreateMap<CategoryResponse, Category>().ReverseMap();
 
         }
     }

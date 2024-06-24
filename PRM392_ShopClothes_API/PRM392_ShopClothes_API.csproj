@@ -22,10 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\PRM392_ShopClothes_Model\PRM392_ShopClothes_Model.csproj" />
     <ProjectReference Include="..\PRM392_ShopClothes_Repository\PRM392_ShopClothes_Repository.csproj" />
     <ProjectReference Include="..\PRM392_ShopClothes_Service\PRM392_ShopClothes_Service.csproj" />

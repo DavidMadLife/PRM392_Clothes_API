@@ -21,5 +21,7 @@ namespace PRM392_ShopClothes_Model.Model.Request
 
         [Required]
         public string Address { get; set; }
+        [Required]
+        public int RoleId { get; set; }
     }
 }

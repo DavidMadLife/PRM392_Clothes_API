@@ -1686,7 +1686,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1"
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "PRM392_ShopClothes_Repository": "1.0.0"
         },
         "compile": {
           "bin/placeholder/PRM392_ShopClothes_Model.dll": {}
@@ -1702,8 +1703,7 @@
           "Microsoft.AspNetCore.Http.Features": "3.1.32",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.31",
           "Microsoft.Extensions.Configuration": "6.0.0",
-          "Microsoft.Extensions.Configuration.Json": "6.0.0",
-          "PRM392_ShopClothes_Model": "1.0.0"
+          "Microsoft.Extensions.Configuration.Json": "6.0.0"
         },
         "compile": {
           "bin/placeholder/PRM392_ShopClothes_Repository.dll": {}

@@ -11,8 +11,28 @@
       "RelativeMoniker": "D:0:0:{74712F7D-40B0-440C-9038-9BCD233C5AB5}|PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj|solutionrelative:prm392_shopclothes_service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BB034C87-52F3-4E7D-B49A-182F26DABF45}|PRM392_ShopClothes_API\\PRM392_ShopClothes_API.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_api\\controllers\\member\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB034C87-52F3-4E7D-B49A-182F26DABF45}|PRM392_ShopClothes_API\\PRM392_ShopClothes_API.csproj|solutionrelative:prm392_shopclothes_api\\controllers\\member\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DF4A71-D4A9-43A0-9E54-00173AFA9C5F}|PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_model\\model\\request\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DF4A71-D4A9-43A0-9E54-00173AFA9C5F}|PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj|solutionrelative:prm392_shopclothes_model\\model\\request\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DF4A71-D4A9-43A0-9E54-00173AFA9C5F}|PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_model\\model\\response\\updateuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DF4A71-D4A9-43A0-9E54-00173AFA9C5F}|PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj|solutionrelative:prm392_shopclothes_model\\model\\response\\updateuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51DF4A71-D4A9-43A0-9E54-00173AFA9C5F}|PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_model\\mapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51DF4A71-D4A9-43A0-9E54-00173AFA9C5F}|PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj|solutionrelative:prm392_shopclothes_model\\mapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DF4A71-D4A9-43A0-9E54-00173AFA9C5F}|PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_model\\model\\response\\registeruserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DF4A71-D4A9-43A0-9E54-00173AFA9C5F}|PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj|solutionrelative:prm392_shopclothes_model\\model\\response\\registeruserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DF4A71-D4A9-43A0-9E54-00173AFA9C5F}|PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_model\\model\\request\\registeruserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DF4A71-D4A9-43A0-9E54-00173AFA9C5F}|PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj|solutionrelative:prm392_shopclothes_model\\model\\request\\registeruserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EF9B8D8-B4FA-4235-866B-07572F856FD8}|PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj|d:\\semester 8\\prm\\prm392_clothes_api\\prm392_shopclothes_repository\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,32 +46,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\Interface\\IUserService.cs",
-              "RelativeDocumentMoniker": "PRM392_ShopClothes_Service\\Interface\\IUserService.cs",
-              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\Interface\\IUserService.cs",
-              "RelativeToolTip": "PRM392_ShopClothes_Service\\Interface\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "UpdateUserResponse.cs",
+              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\Model\\Response\\UpdateUserResponse.cs",
+              "RelativeDocumentMoniker": "PRM392_ShopClothes_Model\\Model\\Response\\UpdateUserResponse.cs",
+              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\Model\\Response\\UpdateUserResponse.cs",
+              "RelativeToolTip": "PRM392_ShopClothes_Model\\Model\\Response\\UpdateUserResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T05:42:15.528Z",
+              "WhenOpened": "2024-06-24T10:18:32.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateUserRequest.cs",
+              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\Model\\Request\\UpdateUserRequest.cs",
+              "RelativeDocumentMoniker": "PRM392_ShopClothes_Model\\Model\\Request\\UpdateUserRequest.cs",
+              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\Model\\Request\\UpdateUserRequest.cs",
+              "RelativeToolTip": "PRM392_ShopClothes_Model\\Model\\Request\\UpdateUserRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T10:15:46.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\Mapper\\AutoMapperProfile.cs",
-              "RelativeDocumentMoniker": "PRM392_ShopClothes_Model\\Mapper\\AutoMapperProfile.cs",
-              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\Mapper\\AutoMapperProfile.cs",
-              "RelativeToolTip": "PRM392_ShopClothes_Model\\Mapper\\AutoMapperProfile.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBMAAAAWAAAA",
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_API\\Controllers\\Member\\MemberController.cs",
+              "RelativeDocumentMoniker": "PRM392_ShopClothes_API\\Controllers\\Member\\MemberController.cs",
+              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_API\\Controllers\\Member\\MemberController.cs",
+              "RelativeToolTip": "PRM392_ShopClothes_API\\Controllers\\Member\\MemberController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwEsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T05:41:53.508Z",
+              "WhenOpened": "2024-06-24T10:10:07.363Z",
               "EditorCaption": ""
             },
             {
@@ -62,22 +95,74 @@
               "RelativeDocumentMoniker": "PRM392_ShopClothes_Service\\Service\\UserService.cs",
               "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\Service\\UserService.cs",
               "RelativeToolTip": "PRM392_ShopClothes_Service\\Service\\UserService.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwDQAAAATAAAA",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAiwGsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-21T15:04:16.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "RegisterUserResponse.cs",
+              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\Model\\Response\\RegisterUserResponse.cs",
+              "RelativeDocumentMoniker": "PRM392_ShopClothes_Model\\Model\\Response\\RegisterUserResponse.cs",
+              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\Model\\Response\\RegisterUserResponse.cs",
+              "RelativeToolTip": "PRM392_ShopClothes_Model\\Model\\Response\\RegisterUserResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:11:03.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\Mapper\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "PRM392_ShopClothes_Model\\Mapper\\AutoMapperProfile.cs",
+              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\Mapper\\AutoMapperProfile.cs",
+              "RelativeToolTip": "PRM392_ShopClothes_Model\\Mapper\\AutoMapperProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T05:41:53.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "PRM392_ShopClothes_Service\\Interface\\IUserService.cs",
+              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\Interface\\IUserService.cs",
+              "RelativeToolTip": "PRM392_ShopClothes_Service\\Interface\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T05:42:15.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterUserRequest.cs",
+              "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\Model\\Request\\RegisterUserRequest.cs",
+              "RelativeDocumentMoniker": "PRM392_ShopClothes_Model\\Model\\Request\\RegisterUserRequest.cs",
+              "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\Model\\Request\\RegisterUserRequest.cs",
+              "RelativeToolTip": "PRM392_ShopClothes_Model\\Model\\Request\\RegisterUserRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:10:41.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Member.cs",
               "DocumentMoniker": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\Member.cs",
               "RelativeDocumentMoniker": "PRM392_ShopClothes_Repository\\Entities\\Member.cs",
               "ToolTip": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\Entities\\Member.cs",
               "RelativeToolTip": "PRM392_ShopClothes_Repository\\Entities\\Member.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAuwAoAAAAeAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T09:57:38.484Z",
+              "WhenOpened": "2024-06-24T09:59:24.358Z",
               "EditorCaption": ""
             }
           ]

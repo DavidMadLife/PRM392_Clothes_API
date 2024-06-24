@@ -32,7 +32,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj": {
+                "projectPath": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -103,11 +107,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj": {
-                "projectPath": "D:\\Semester 8\\PRM\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

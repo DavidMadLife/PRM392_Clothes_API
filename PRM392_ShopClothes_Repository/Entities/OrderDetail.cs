@@ -18,8 +18,6 @@ namespace PRM392_ShopClothes_Repository.Entities
         public int Quantity { get; set; }
         [Required]
         public double Discount { get; set; }
-        [Required]
-        public string Status { get; set; }
 
         [ForeignKey("OrderId")]
         public Order Order { get; set; }

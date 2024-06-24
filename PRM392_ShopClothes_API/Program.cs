@@ -43,6 +43,8 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 //Service
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 
 
 //JWT

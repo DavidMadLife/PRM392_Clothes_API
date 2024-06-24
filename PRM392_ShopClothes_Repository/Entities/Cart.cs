@@ -24,5 +24,7 @@ namespace PRM392_ShopClothes_Repository.Entities
 
         [ForeignKey("MemberId")]
         public Member Member { get; set; }
+
+        public ICollection<CartItem> CartItems { get; set; } = new List<CartItem>();
     }
 }

@@ -14,7 +14,7 @@ namespace PRM392_ShopClothes_Repository.Entities
         [Required]
         public DateTime OrderDate { get; set; }
         [Required]
-        public DateTime RequiredDate { get; set; }
+        public string OrderCode { get; set; }
         [Required]
         public DateTime ShippedDate { get; set; }
         [Required]

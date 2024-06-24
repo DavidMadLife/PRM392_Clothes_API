@@ -24,7 +24,8 @@ namespace PRM392_ShopClothes_Repository.Entities
             var path = @"D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API";
 
             var configuration = new ConfigurationBuilder()
-                .SetBasePath(path)
+                //.SetBasePath(path)
+                .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json")
                 .Build();
 

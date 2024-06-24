@@ -5,7 +5,7 @@ using PRM392_ShopClothes_Service.Interface;
 namespace PRM392_ShopClothes_API.Controllers.Product
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/products")]
     public class ProductsController : ControllerBase
     {
         private readonly IProductService _productService;

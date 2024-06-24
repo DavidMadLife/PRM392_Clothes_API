@@ -5,7 +5,7 @@ using PRM392_ShopClothes_Service.Interface;
 namespace PRM392_ShopClothes_API.Controllers.Product
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/providers")]
     public class ProvidersController : ControllerBase
     {
         private readonly IProviderService _providerService;

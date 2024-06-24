@@ -21,7 +21,10 @@ D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\P
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\refint\PRM392_ShopClothes_Model.dll
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\PRM392_ShopClothes_Model.pdb
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\ref\PRM392_ShopClothes_Model.dll
-<<<<<<< HEAD
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\bin\Debug\net6.0\PRM392_ShopClothes_Repository.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\bin\Debug\net6.0\PRM392_ShopClothes_Repository.pdb
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\PRM392_ShopClothes_Model.csproj.AssemblyReference.cache
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\PRM392_S.20FD0B16.Up2Date
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_Model\bin\Debug\net6.0\PRM392_ShopClothes_Model.deps.json
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_Model\bin\Debug\net6.0\PRM392_ShopClothes_Model.dll
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_Model\bin\Debug\net6.0\PRM392_ShopClothes_Model.pdb
@@ -38,9 +41,3 @@ D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\refint\PRM392_ShopClothes_Model.dll
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\PRM392_ShopClothes_Model.pdb
 D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\ref\PRM392_ShopClothes_Model.dll
-=======
-D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\bin\Debug\net6.0\PRM392_ShopClothes_Repository.dll
-D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\bin\Debug\net6.0\PRM392_ShopClothes_Repository.pdb
-D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\PRM392_ShopClothes_Model.csproj.AssemblyReference.cache
-D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Model\obj\Debug\net6.0\PRM392_S.20FD0B16.Up2Date
->>>>>>> main

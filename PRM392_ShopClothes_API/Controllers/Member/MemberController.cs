@@ -40,7 +40,7 @@ namespace PRM392_ShopClothes_API.Controllers.Member
         }
 
         [HttpPost("register")]
-        public async Task<ActionResult<RegisterUserResponse>> RegisterUser([FromForm] RegisterUserRequest request)
+        public async Task<ActionResult<RegisterUserResponse>> RegisterUser([FromBody] RegisterUserRequest request)
         {
             try
             {

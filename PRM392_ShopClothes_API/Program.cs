@@ -68,7 +68,12 @@ var config = new MapperConfiguration(cfg =>
 {
     cfg.AddProfile(new AutoMapperProfile());
 });
+
 builder.Services.AddSingleton<IMapper>(config.CreateMapper());
+
+
+//FireBase
+builder.Services.AddScoped<PRM392_ShopClothes_Repository.Firebase.Firebase>();
 
 var app = builder.Build();
 

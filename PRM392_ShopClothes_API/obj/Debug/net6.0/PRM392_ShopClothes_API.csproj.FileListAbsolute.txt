@@ -412,3 +412,14 @@ D:\Semester 8\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Debug\net6.0\refint\
 D:\Semester 8\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Debug\net6.0\PRM392_ShopClothes_API.pdb
 D:\Semester 8\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Debug\net6.0\PRM392_ShopClothes_API.genruntimeconfig.cache
 D:\Semester 8\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Debug\net6.0\ref\PRM392_ShopClothes_API.dll
+D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Firebase.Auth.dll
+D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\FirebaseAdmin.dll
+D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Firebase.Storage.dll
+D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Google.Api.Gax.dll
+D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Google.Api.Gax.Rest.dll
+D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Google.Apis.dll
+D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Google.Apis.Auth.PlatformServices.dll
+D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Google.Apis.Auth.dll
+D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Google.Apis.Core.dll
+D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ky 8\prm392\assignment\PRM392_Clothes_API\PRM392_ShopClothes_API\bin\Debug\net6.0\System.ServiceModel.dll

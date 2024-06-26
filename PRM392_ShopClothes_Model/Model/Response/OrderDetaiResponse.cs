@@ -14,6 +14,5 @@ namespace PRM392_ShopClothes_Model.Model.Response
         public double UnitPrice { get; set; }
         public int Quantity { get; set; }
         public double Discount { get; set; }
-        public string Status { get; set; }
     }
 }

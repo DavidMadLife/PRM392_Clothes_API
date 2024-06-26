@@ -25,10 +25,17 @@ namespace PRM392_ShopClothes_Model.Mapper
 
             //Response
             //CreateMap<RegisterUserResponse, Member>().ReverseMap();
-            CreateMap<Cart, CartResponse>().ReverseMap();
-            CreateMap<CartItem, CartItemResponse>().ReverseMap();
+            CreateMap<Cart, CartResponse>()
+                .ForMember(dest => dest.Items, opt => opt.MapFrom(src => src.CartItems))
+                .ReverseMap();
+            CreateMap<CartItem, CartItemResponse>()
+                .ForMember(dest => dest.ProductName, opt => opt.MapFrom(src => src.Product.ProductName))
+                .ForMember(dest => dest.UnitPrice, opt => opt.MapFrom(src => src.Product.UnitPrice))
+                .ReverseMap();
             CreateMap<Order, OrderResponse>().ReverseMap();
-            CreateMap<OrderDetail, OrderDetaiResponse>().ReverseMap();
+            CreateMap<OrderDetail, OrderDetaiResponse>()
+                .ForMember(dest => dest.ProductName, opt => opt.MapFrom(src => src.Product.ProductName))
+                .ReverseMap();
 
             CreateMap<RegisterUserRequest,PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();
             CreateMap<UpdateUserRequest, PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();

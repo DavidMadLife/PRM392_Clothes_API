@@ -12,8 +12,8 @@ namespace PRM392_ShopClothes_Model.Model.Response
         public DateTime OrderDate { get; set; }
         public string OrderCode { get; set; }
         public DateTime ShippedDate { get; set; }
-        public double Total { get; set; }
-        public string Status { get; set; }
         public IEnumerable<OrderDetaiResponse> OrderDetails { get; set; }
+        public string Status { get; set; }
+        public double Total { get; set; }
     }
 }

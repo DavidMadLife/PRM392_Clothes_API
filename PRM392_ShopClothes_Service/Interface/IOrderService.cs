@@ -12,6 +12,20 @@ namespace PRM392_ShopClothes_Service.Interface
     {
         Task Checkout(OrderRequest orderRequest);
 
-        Task<IEnumerable<OrderResponse>> GetOrdersByMemberId(int memberId);
+        Task<IEnumerable<OrderResponse>> GetOrdersByMemberId(int id);
+
+        Task ConfirmOrder(int id);
+
+        Task RejectOrder(int id);
+
+        List<OrderResponse> GetOrderByStatusPending(string? keyword, int pageIndex, int pageSize);
+
+        List<OrderResponse> GetOrderByStatusConfirmed(string? keyword, int pageIndex, int pageSize);
+
+        List<OrderResponse> GetOrderByStatusRejected(string? keyword, int pageIndex, int pageSize);
+
+        double GetTotalConfirmedOrdersAmount();
+
+        int CountOrder();
     }
 }

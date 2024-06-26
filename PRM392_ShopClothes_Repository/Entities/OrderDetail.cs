@@ -17,6 +17,8 @@ namespace PRM392_ShopClothes_Repository.Entities
         [Required]
         public int Quantity { get; set; }
         [Required]
+        public string Size { get; set; }
+        [Required]
         public double Discount { get; set; }
 
         [ForeignKey("OrderId")]

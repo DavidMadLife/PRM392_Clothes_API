@@ -67,6 +67,7 @@ namespace PRM392_ShopClothes_Service.Service
                         ProductId = item.ProductId,
                         UnitPrice = item.Product.UnitPrice,
                         Quantity = item.Quantity,
+                        Size = item.Size,
                         Discount = 0
                     };
 
@@ -130,7 +131,8 @@ namespace PRM392_ShopClothes_Service.Service
                         ProductId = od.ProductId,
                         ProductName = od.Product.ProductName,
                         UnitPrice = od.UnitPrice,
-                        Quantity = od.Quantity
+                        Quantity = od.Quantity,
+                        Size = od.Size,
                     }).ToList()
                 };
 
@@ -195,7 +197,8 @@ namespace PRM392_ShopClothes_Service.Service
                         ProductId = od.ProductId,
                         ProductName = od.Product.ProductName,
                         UnitPrice = od.UnitPrice,
-                        Quantity = od.Quantity
+                        Quantity = od.Quantity,
+                        Size = od.Size,
                     }).ToList()
                 };
 

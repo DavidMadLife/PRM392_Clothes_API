@@ -42,6 +42,7 @@ namespace PRM392_ShopClothes_Service.Service
                 {
                     message.AppendLine("<p>");
                     message.AppendLine($"<strong>Item Name:</strong> {orderDetail.ProductName}<br/>");
+                    message.AppendLine($"<strong>Size:</strong> {orderDetail.Size}<br/>");
                     message.AppendLine($"<strong>Quantity:</strong> {orderDetail.Quantity}<br/>");
                     message.AppendLine($"<strong>Price per Unit:</strong> {orderDetail.UnitPrice} VND<br/>");
                     message.AppendLine("</p>");
@@ -78,6 +79,7 @@ namespace PRM392_ShopClothes_Service.Service
                 {
                     message.AppendLine("<p>");
                     message.AppendLine($"<strong>Item Name:</strong> {orderDetail.ProductName}<br/>");
+                    message.AppendLine($"<strong>Size:</strong> {orderDetail.Size}<br/>");
                     message.AppendLine($"<strong>Quantity:</strong> {orderDetail.Quantity}<br/>");
                     message.AppendLine($"<strong>Price per Unit:</strong> {orderDetail.UnitPrice} VND<br/>");
                     message.AppendLine("</p>");

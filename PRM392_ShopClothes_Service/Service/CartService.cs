@@ -40,8 +40,9 @@ namespace PRM392_ShopClothes_Service.Service
                 _unitOfWork.Save();
             }
 
-            var cartItem = _unitOfWork.CartItemRepository.Get(ci => ci.CartId == cart.CartId 
-                                                           && ci.ProductId == cartRequest.ProductId).FirstOrDefault();
+            var cartItem = _unitOfWork.CartItemRepository.Get(ci => ci.CartId == cart.CartId
+                                                           && ci.ProductId == cartRequest.ProductId
+                                                           && ci.Size == cartRequest.Size).FirstOrDefault();
             if (cartItem == null)
             {
                 cartItem = _mapper.Map<CartItem>(cartRequest);
@@ -52,8 +53,7 @@ namespace PRM392_ShopClothes_Service.Service
             else
             {
                 cartItem.Quantity += cartRequest.Quantity;
-                cartItem.AddedAt = DateTime.UtcNow;
-
+                cartItem.AddedAt = DateTime.UtcNow; // Update AddedAt time when quantity is incremented
                 _unitOfWork.CartItemRepository.Update(cartItem);
             }
 
@@ -76,6 +76,7 @@ namespace PRM392_ShopClothes_Service.Service
             return Task.CompletedTask;
         }
 
+
         public async Task UpdateItemQuantity(CartRequest cartRequest)
         {
             var cart = _unitOfWork.CartRepository.Get(c => c.MemberId == cartRequest.MemberId).FirstOrDefault();
@@ -95,6 +96,7 @@ namespace PRM392_ShopClothes_Service.Service
             cart.Total -= cartItem.Quantity * product.UnitPrice;
             cartItem.Quantity = cartRequest.Quantity;
             cart.Total += cartItem.Quantity * product.UnitPrice;
+            cartItem.Size = cartRequest.Size;
 
             _unitOfWork.CartItemRepository.Update(cartItem);
             cart.ModifiedAt = DateTime.UtcNow;

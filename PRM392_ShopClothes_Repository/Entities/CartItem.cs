@@ -20,6 +20,9 @@ namespace PRM392_ShopClothes_Repository.Entities
         public int Quantity { get; set; }
 
         [Required]
+        public string Size { get; set; }
+
+        [Required]
         public DateTime AddedAt { get; set; }
 
         [ForeignKey("CartId")]

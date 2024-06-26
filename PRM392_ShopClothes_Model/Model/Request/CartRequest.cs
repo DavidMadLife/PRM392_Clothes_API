@@ -11,5 +11,6 @@ namespace PRM392_ShopClothes_Model.Model.Request
         public int MemberId { get; set; }
         public int ProductId { get; set; }
         public int Quantity { get; set; }
+        public string Size { get; set; }
     }
 }

@@ -58,6 +58,12 @@ namespace PRM392_ShopClothes_Service.Service
             }
 
             var product = _unitOfWork.ProductRepository.GetById(cartRequest.ProductId);
+
+            if (cartRequest.Quantity > product.UnitsInStock)
+            {
+                throw new Exception("Not enough stock available.");
+            }
+
             if (product != null)
             {
                 cart.Total += product.UnitPrice * cartRequest.Quantity;
@@ -80,6 +86,11 @@ namespace PRM392_ShopClothes_Service.Service
 
             var product = _unitOfWork.ProductRepository.GetById(cartRequest.ProductId);
             if (product == null) throw new Exception("Product not found.");
+
+            if (cartRequest.Quantity > product.UnitsInStock)
+            {
+                throw new Exception("Not enough stock available.");
+            }
 
             cart.Total -= cartItem.Quantity * product.UnitPrice;
             cartItem.Quantity = cartRequest.Quantity;

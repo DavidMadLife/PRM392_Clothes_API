@@ -10,7 +10,7 @@ namespace PRM392_ShopClothes_Repository.Entities
         [Key]
         public int OrderId { get; set; }
         [Required]
-        public int CarId { get; set; }
+        public int CartId { get; set; }
         [Required]
         public DateTime OrderDate { get; set; }
         [Required]
@@ -24,5 +24,7 @@ namespace PRM392_ShopClothes_Repository.Entities
 
         [ForeignKey("CartId")]
         public Cart Cart { get; set; }
+
+        public ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }

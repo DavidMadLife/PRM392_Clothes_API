@@ -34,5 +34,7 @@ namespace PRM392_ShopClothes_Repository.Entities
 
         [ForeignKey("ProviderId")]
         public Provider Provider { get; set; }
+
+        public ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }

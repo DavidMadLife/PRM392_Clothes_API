@@ -78,7 +78,7 @@ namespace PRM392_ShopClothes_Service.Service
             }
 
             var member = _mapper.Map<PRM392_ShopClothes_Repository.Entities.Member>(registerUserRequest);
-
+            member.RoleId = 2;
             member.Status = "Success";
             _unitOfWork.MemberRepository.Insert(member);
             _unitOfWork.Save();

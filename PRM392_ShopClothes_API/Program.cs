@@ -45,6 +45,10 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IProviderService, ProviderService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IRoleService, RoleService>();
 
 builder.Services.AddScoped<IEmailService, EmailService>();
 
@@ -66,7 +70,12 @@ var config = new MapperConfiguration(cfg =>
 {
     cfg.AddProfile(new AutoMapperProfile());
 });
+
 builder.Services.AddSingleton<IMapper>(config.CreateMapper());
+
+
+//FireBase
+builder.Services.AddScoped<PRM392_ShopClothes_Repository.Firebase.Firebase>();
 
 var app = builder.Build();
 

@@ -6,7 +6,7 @@ using PRM392_ShopClothes_Service.Service;
 namespace PRM392_ShopClothes_API.Controllers.CartController
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/carts")]
     public class CartController : ControllerBase
     {
         private readonly ICartService _cartService;

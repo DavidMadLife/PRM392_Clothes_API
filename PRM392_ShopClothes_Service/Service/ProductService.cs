@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.Extensions.Configuration;
 using PRM392_ShopClothes_Model.Model.Request;
 using PRM392_ShopClothes_Model.Model.Response;
 using PRM392_ShopClothes_Repository.Entities;
@@ -17,11 +18,13 @@ namespace PRM392_ShopClothes_Service.Service
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
+        private readonly PRM392_ShopClothes_Repository.Firebase.Firebase _firebase;
 
-        public ProductService(IUnitOfWork unitOfWork, IMapper mapper)
+        public ProductService(IUnitOfWork unitOfWork, IMapper mapper, IConfiguration configuration)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
+            _firebase = new PRM392_ShopClothes_Repository.Firebase.Firebase(configuration);
         }
 
         public async Task<ProductResponse> GetProductByIdAsync(int id)
@@ -58,6 +61,13 @@ namespace PRM392_ShopClothes_Service.Service
         public async Task<ProductResponse> CreateProductAsync(ProductRequest productRequest)
         {
             var product = _mapper.Map<Product>(productRequest);
+
+            if (productRequest.ImgFile != null)
+            {
+                var imageUrl = await _firebase.UploadImage(productRequest.ImgFile);
+                product.Img = imageUrl;
+            }
+
             _unitOfWork.ProductRepository.Insert(product);
             _unitOfWork.Save();
 
@@ -71,6 +81,13 @@ namespace PRM392_ShopClothes_Service.Service
                 return null;
 
             _mapper.Map(productRequest, existingProduct);
+
+            if (productRequest.ImgFile != null)
+            {
+                var imageUrl = await _firebase.UploadImage(productRequest.ImgFile);
+                existingProduct.Img = imageUrl;
+            }
+
             _unitOfWork.ProductRepository.Update(existingProduct);
             _unitOfWork.Save();
 

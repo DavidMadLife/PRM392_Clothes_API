@@ -77,3 +77,18 @@ D:\Semester 8\PRM392_Clothes_API\PRM392_ShopClothes_Repository\obj\Debug\net6.0\
 D:\Semester 8\PRM392_Clothes_API\PRM392_ShopClothes_Repository\obj\Debug\net6.0\PRM392_ShopClothes_Repository.pdb
 D:\Semester 8\PRM392_Clothes_API\PRM392_ShopClothes_Repository\obj\Debug\net6.0\PRM392_ShopClothes_Repository.genruntimeconfig.cache
 D:\Semester 8\PRM392_Clothes_API\PRM392_ShopClothes_Repository\obj\Debug\net6.0\ref\PRM392_ShopClothes_Repository.dll
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Repository\bin\Debug\net6.0\PRM392_ShopClothes_Repository.deps.json
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Repository\bin\Debug\net6.0\PRM392_ShopClothes_Repository.runtimeconfig.json
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Repository\bin\Debug\net6.0\PRM392_ShopClothes_Repository.dll
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Repository\bin\Debug\net6.0\PRM392_ShopClothes_Repository.pdb
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Repository\obj\Debug\net6.0\PRM392_ShopClothes_Repository.csproj.AssemblyReference.cache
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Repository\obj\Debug\net6.0\PRM392_ShopClothes_Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Repository\obj\Debug\net6.0\PRM392_ShopClothes_Repository.AssemblyInfoInputs.cache
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Repository\obj\Debug\net6.0\PRM392_ShopClothes_Repository.AssemblyInfo.cs
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Repository\obj\Debug\net6.0\PRM392_ShopClothes_Repository.csproj.CoreCompileInputs.cache
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Repository\obj\Debug\net6.0\PRM392_ShopClothes_Repository.sourcelink.json
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Repository\obj\Debug\net6.0\PRM392_ShopClothes_Repository.dll
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Repository\obj\Debug\net6.0\refint\PRM392_ShopClothes_Repository.dll
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Repository\obj\Debug\net6.0\PRM392_ShopClothes_Repository.pdb
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Repository\obj\Debug\net6.0\PRM392_ShopClothes_Repository.genruntimeconfig.cache
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Repository\obj\Debug\net6.0\ref\PRM392_ShopClothes_Repository.dll

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Http;
 
 namespace PRM392_ShopClothes_Model.Model.Request
 {
@@ -14,9 +10,8 @@ namespace PRM392_ShopClothes_Model.Model.Request
         public double Weight { get; set; }
         public double UnitPrice { get; set; }
         public int UnitsInStock { get; set; }
-        public string Img { get; set; }
         public string Status { get; set; }
         public string Description { get; set; }
+        public IFormFile ImgFile { get; set; } // New property for image file
     }
-
 }

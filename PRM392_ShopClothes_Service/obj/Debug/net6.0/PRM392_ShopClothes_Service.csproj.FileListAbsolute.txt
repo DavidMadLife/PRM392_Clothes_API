@@ -81,3 +81,21 @@ D:\Semester 8\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\PRM
 D:\Semester 8\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\refint\PRM392_ShopClothes_Service.dll
 D:\Semester 8\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\PRM392_ShopClothes_Service.pdb
 D:\Semester 8\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\ref\PRM392_ShopClothes_Service.dll
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\bin\Debug\net6.0\PRM392_ShopClothes_Service.deps.json
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\bin\Debug\net6.0\PRM392_ShopClothes_Service.dll
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\bin\Debug\net6.0\PRM392_ShopClothes_Service.pdb
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\bin\Debug\net6.0\PRM392_ShopClothes_Model.dll
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\bin\Debug\net6.0\PRM392_ShopClothes_Repository.dll
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\bin\Debug\net6.0\PRM392_ShopClothes_Model.pdb
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\bin\Debug\net6.0\PRM392_ShopClothes_Repository.pdb
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\PRM392_ShopClothes_Service.csproj.AssemblyReference.cache
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\PRM392_ShopClothes_Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\PRM392_ShopClothes_Service.AssemblyInfoInputs.cache
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\PRM392_ShopClothes_Service.AssemblyInfo.cs
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\PRM392_ShopClothes_Service.csproj.CoreCompileInputs.cache
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\PRM392_ShopClothes_Service.sourcelink.json
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\PRM392_ShopClothes_Service.csproj.CopyComplete
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\PRM392_ShopClothes_Service.dll
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\refint\PRM392_ShopClothes_Service.dll
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\PRM392_ShopClothes_Service.pdb
+D:\PRM\PRM392_Clothes_API\PRM392_ShopClothes_Service\obj\Debug\net6.0\ref\PRM392_ShopClothes_Service.dll

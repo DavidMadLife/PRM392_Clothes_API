@@ -40,14 +40,14 @@ namespace PRM392_ShopClothes_API.Controllers.Product
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateProduct([FromBody] ProductRequest productRequest)
+        public async Task<IActionResult> CreateProduct([FromForm] ProductRequest productRequest) // Changed to [FromForm]
         {
             var createdProduct = await _productService.CreateProductAsync(productRequest);
             return CreatedAtAction(nameof(GetProductById), new { id = createdProduct.ProductId }, createdProduct);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProduct(int id, [FromBody] ProductRequest productRequest)
+        public async Task<IActionResult> UpdateProduct(int id, [FromForm] ProductRequest productRequest) // Changed to [FromForm]
         {
             var updatedProduct = await _productService.UpdateProductAsync(id, productRequest);
             if (updatedProduct == null)

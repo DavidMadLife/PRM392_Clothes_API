@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_API\\PRM392_ShopClothes_API.csproj": {}
+    "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_API\\PRM392_ShopClothes_API.csproj": {}
   },
   "projects": {
-    "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_API\\PRM392_ShopClothes_API.csproj": {
+    "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_API\\PRM392_ShopClothes_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_API\\PRM392_ShopClothes_API.csproj",
+        "projectUniqueName": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_API\\PRM392_ShopClothes_API.csproj",
         "projectName": "PRM392_ShopClothes_API",
-        "projectPath": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_API\\PRM392_ShopClothes_API.csproj",
-        "packagesPath": "C:\\Users\\ROG STRIX\\.nuget\\packages\\",
-        "outputPath": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_API\\obj\\",
+        "projectPath": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_API\\PRM392_ShopClothes_API.csproj",
+        "packagesPath": "C:\\Users\\quans\\.nuget\\packages\\",
+        "outputPath": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ROG STRIX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\quans\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,20 +26,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj": {
-                "projectPath": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj"
+              "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj": {
+                "projectPath": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj"
               },
-              "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj": {
-                "projectPath": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj"
+              "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj": {
+                "projectPath": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj"
               },
-              "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj": {
-                "projectPath": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj"
+              "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj": {
+                "projectPath": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj"
               }
             }
           }
@@ -48,6 +49,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -106,24 +112,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj": {
+    "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj",
+        "projectUniqueName": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj",
         "projectName": "PRM392_ShopClothes_Model",
-        "projectPath": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj",
-        "packagesPath": "C:\\Users\\ROG STRIX\\.nuget\\packages\\",
-        "outputPath": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\obj\\",
+        "projectPath": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj",
+        "packagesPath": "C:\\Users\\quans\\.nuget\\packages\\",
+        "outputPath": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ROG STRIX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\quans\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -132,14 +138,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj": {
-                "projectPath": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj"
+              "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj": {
+                "projectPath": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj"
               }
             }
           }
@@ -148,6 +155,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -175,24 +187,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj": {
+    "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj",
+        "projectUniqueName": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj",
         "projectName": "PRM392_ShopClothes_Repository",
-        "projectPath": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj",
-        "packagesPath": "C:\\Users\\ROG STRIX\\.nuget\\packages\\",
-        "outputPath": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\obj\\",
+        "projectPath": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj",
+        "packagesPath": "C:\\Users\\quans\\.nuget\\packages\\",
+        "outputPath": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ROG STRIX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\quans\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -201,6 +213,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -213,6 +226,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -272,24 +290,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj": {
+    "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj",
+        "projectUniqueName": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj",
         "projectName": "PRM392_ShopClothes_Service",
-        "projectPath": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj",
-        "packagesPath": "C:\\Users\\ROG STRIX\\.nuget\\packages\\",
-        "outputPath": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\obj\\",
+        "projectPath": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\PRM392_ShopClothes_Service.csproj",
+        "packagesPath": "C:\\Users\\quans\\.nuget\\packages\\",
+        "outputPath": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ROG STRIX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\quans\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -298,17 +316,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj": {
-                "projectPath": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj"
+              "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj": {
+                "projectPath": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Model\\PRM392_ShopClothes_Model.csproj"
               },
-              "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj": {
-                "projectPath": "D:\\ky 8\\prm392\\assignment\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj"
+              "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj": {
+                "projectPath": "D:\\Semester 8\\PRM392_Clothes_API\\PRM392_Clothes_API\\PRM392_ShopClothes_Repository\\PRM392_ShopClothes_Repository.csproj"
               }
             }
           }
@@ -317,6 +336,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -338,7 +362,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

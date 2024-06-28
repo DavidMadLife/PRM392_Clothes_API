@@ -36,10 +36,12 @@ namespace PRM392_ShopClothes_Model.Mapper
             CreateMap<CartItem, CartItemResponse>()
                 .ForMember(dest => dest.ProductName, opt => opt.MapFrom(src => src.Product.ProductName))
                 .ForMember(dest => dest.UnitPrice, opt => opt.MapFrom(src => src.Product.UnitPrice))
+                .ForMember(dest => dest.Img, opt => opt.MapFrom(src => src.Product.Img))
                 .ReverseMap();
             CreateMap<Order, OrderResponse>().ReverseMap();
             CreateMap<OrderDetail, OrderDetaiResponse>()
                 .ForMember(dest => dest.ProductName, opt => opt.MapFrom(src => src.Product.ProductName))
+                .ForMember(dest => dest.Img, opt => opt.MapFrom(src => src.Product.Img))
                 .ReverseMap();
 
             CreateMap<RegisterUserRequest,PRM392_ShopClothes_Repository.Entities.Member>().ReverseMap();

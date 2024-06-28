@@ -13,5 +13,6 @@ namespace PRM392_ShopClothes_Model.Model.Response
         public int Quantity { get; set; }
         public double UnitPrice { get; set; }
         public string Size { get; set; }
+        public string Img { get; set; }
     }
 }

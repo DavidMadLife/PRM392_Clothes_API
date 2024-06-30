@@ -85,6 +85,41 @@ namespace PRM392_ShopClothes_API.Controllers.Member
             }
         }
 
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteUser(long id)
+        {
+            try
+            {
+                var result = await _userService.DeleteUser(id);
+                if (result)
+                {
+                    return Ok(new { message = "User deleted successfully." });
+                }
+                return NotFound(new { message = "User not found." });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+        [HttpPut("ChangePassword/{id}")]
+        public async Task<IActionResult> ChangePassword(long id, [FromBody] ChangePasswordRequest request)
+        {
+            try
+            {
+                var result = await _userService.ChangePassword(id, request.currentPassword, request.newPassword);
+                if (result)
+                {
+                    return Ok(new { message = "Password changed successfully." });
+                }
+                return BadRequest(new { message = "Failed to change password." });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
 
     }
 }

@@ -6,7 +6,17 @@ D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\P
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\PRM392_ShopClothes_API.pdb
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\AutoMapper.dll
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Firebase.Auth.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\FirebaseAdmin.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Firebase.Storage.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Google.Api.Gax.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Google.Api.Gax.Rest.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Google.Apis.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Google.Apis.Auth.PlatformServices.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Google.Apis.Auth.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Google.Apis.Core.dll
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Microsoft.DotNet.PlatformAbstractions.dll
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
@@ -23,6 +33,7 @@ D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\P
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.dll
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
+D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\System.ServiceModel.dll
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
 D:\Semester 8\PRM\PRM392_Clothes_API\PRM392_ShopClothes_API\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll

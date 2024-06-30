@@ -18,5 +18,7 @@ namespace PRM392_ShopClothes_Service.Interface
         Task<PRM392_ShopClothes_Repository.Entities.Member?> GetUserByEmail(string email);
         Task<string> AuthorizeUser(LoginView loginView);
         Task<UpdateUserResponse> UpdateMember (int id, UpdateUserRequest updateUserRequest);
+        Task<bool> DeleteUser(long id);
+        Task<bool> ChangePassword(long id, string currentPassword, string newPassword);
     }
 }

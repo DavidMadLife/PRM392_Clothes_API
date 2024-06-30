@@ -168,5 +168,41 @@ namespace PRM392_ShopClothes_Service.Service
             var jwt = new JwtSecurityTokenHandler().WriteToken(token);
             return jwt;
         }
+
+        public async Task<bool> DeleteUser(long id)
+        {
+            var member = _unitOfWork.MemberRepository.Get(filter: p => p.MemberId == id).FirstOrDefault();
+            if (member == null)
+            {
+                // Handle case where member is not found
+                throw new Exception("User not found.");
+            }
+
+            _unitOfWork.MemberRepository.Delete(member);
+            _unitOfWork.Save();
+
+            return true;
+        }
+
+        public async Task<bool> ChangePassword(long id, string currentPassword, string newPassword)
+        {
+            var member = _unitOfWork.MemberRepository.Get(filter: p => p.MemberId == id).FirstOrDefault();
+            if (member == null)
+            {
+                throw new Exception("User not found.");
+            }
+
+            if (member.Password != currentPassword)
+            {
+                throw new Exception("Current password is incorrect.");
+            }
+
+            member.Password = newPassword;
+            _unitOfWork.MemberRepository.Update(member);
+            _unitOfWork.Save();
+
+            return true;
+        }
+
     }
 }

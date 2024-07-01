@@ -219,8 +219,8 @@ namespace PRM392_ShopClothes_Service.Service
             try
             {
 
-                Expression<Func<Order, bool>> filter = s => string.IsNullOrEmpty(keyword) ||
-                                                            s.OrderCode.Contains(keyword)
+                Expression<Func<Order, bool>> filter = s => (string.IsNullOrEmpty(keyword) ||
+                                                            s.OrderCode.Contains(keyword))
                                                             && s.Status == "Pending";
 
                 var listOrder = _unitOfWork.OrderRepository.Get(
@@ -244,8 +244,8 @@ namespace PRM392_ShopClothes_Service.Service
             try
             {
 
-                Expression<Func<Order, bool>> filter = s => string.IsNullOrEmpty(keyword) ||
-                                                            s.OrderCode.Contains(keyword)
+                Expression<Func<Order, bool>> filter = s => (string.IsNullOrEmpty(keyword) ||
+                                                            s.OrderCode.Contains(keyword))
                                                             && s.Status == "Confirmed";
 
                 var listOrder = _unitOfWork.OrderRepository.Get(
@@ -268,8 +268,8 @@ namespace PRM392_ShopClothes_Service.Service
             try
             {
 
-                Expression<Func<Order, bool>> filter = s => string.IsNullOrEmpty(keyword) ||
-                                                            s.OrderCode.Contains(keyword)
+                Expression<Func<Order, bool>> filter = s => (string.IsNullOrEmpty(keyword) ||
+                                                            s.OrderCode.Contains(keyword))
                                                             && s.Status == "Rejected";
 
                 var listOrder = _unitOfWork.OrderRepository.Get(
